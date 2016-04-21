@@ -1,0 +1,3 @@
+SHOW DATABASES;
+USE scott;
+SHOW TABLES ;
