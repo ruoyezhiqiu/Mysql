@@ -41,7 +41,7 @@ SELECT *
 FROM emp
 WHERE comm < 100 OR comm IS NULL;
 # 9. 查找员工雇佣日期中当月的最后一天雇佣的。
-SELECT *FROM emp;
+
 # 10. 检索出雇佣年限超过12年的员工信息。
 # 11. 找出姓名以A、B、S开始的员工信息。
 # 12. 找到名字长度为7个字符的员工信息。
@@ -80,3 +80,13 @@ SELECT *FROM emp;
 # 18. 返回不同部门经理的最低工资。
 # 19. 计算出员工的年薪，并且以年薪排序。
 # 20. 返回工资处于第四级别的员工的姓名
+CREATE TABLE test(
+  id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+  sno INT(11) UNSIGNED,
+  name VARCHAR(20),
+  gender CHAR(2),
+  major VARCHAR(20)
+);
+SHOW TABLES ;
+DESC test;
+show CREATE TABLE test;
